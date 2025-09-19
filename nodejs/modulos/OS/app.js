@@ -1,5 +1,6 @@
 //Importa o módulo nativo 'os' do Node.js.
-const os = require('os');
+//const os = require('os');
+import os from 'os';
 
 //Exibe informações sobre o sistema operacional no console.
 //Exibe a arquitetura do sistema.

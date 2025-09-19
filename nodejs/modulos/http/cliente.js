@@ -1,5 +1,6 @@
 // Importando o módulo HTTP
-const http = require('http');
+//const http = require('http');
+import http from 'http';
 
 http.get('http://jsonplaceholder.typicode.com/posts/1', (res) => {
     let data = '';
